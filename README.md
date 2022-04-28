@@ -20,13 +20,13 @@ $ npm install sub-vn
 | getWards() | Lấy danh sách các xã/phường |
 | getAreasWithDetail() | Lấy danh sách vùng miền (chi tiết) |
 | getProvincesWithDetail() | Lấy toàn bộ dữ liệu |
-| getProvindByAreaCode() | Lấy danh sách tỉnh/tp theo mã vùng miền |
+| getProvindByAreaCode(areaCode) | Lấy danh sách tỉnh/tp theo mã vùng miền |
 | getDistrictsByProvinceCode(provinceCode) | Lấy danh sách huyện/ quận theo mã tỉnh |
 | getWardsByDistrictCode(districtCode) | Lấy danh sách phường/ xã theo mã huyện |
 | getWardsByProvinceCode(provinceCode) | Lấy danh sách phường/ xã theo tỉnh |
-| getProvinceByProvinceCode() | Lấy thông tin tỉnh/tp theo mã tỉnh |
-| getWardByWardCode() | Lấy thông tin phường / xã theo mã phường/ xã |
-| getDistrictByDistrictCode() | Lấy thông tin quận/ huyện theo mã quận/ huyện |
+| getProvinceByProvinceCode(provinceCode) | Lấy thông tin tỉnh/tp theo mã tỉnh |
+| getWardByWardCode(wardCode) | Lấy thông tin phường / xã theo mã phường/ xã |
+| getDistrictByDistrictCode(districtCode) | Lấy thông tin quận/ huyện theo mã quận/ huyện |
 
 ### The MIT License (MIT)
 
