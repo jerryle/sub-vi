@@ -7,7 +7,9 @@ Tìm kiếm và lấy dữ liệu hành chính Việt Nam
 ## Cài đặt
 
 ```
-$ npm install sub-vn
+$ npm install sub-vi
+// OR with yarn
+$ yarn add sub-vi
 ```
 
 ## Các hàm hỗ trợ
