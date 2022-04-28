@@ -14,14 +14,19 @@ $ npm install sub-vn
 
 | Function  | Desciption |
 | ------------- | ------------- |
+| getAreas() | Lấy danh sách vùng miền |
 | getProvinces() | Lấy danh sách tỉnh/thành phố |
 | getDistricts() | Lấy danh sách các huyện/quận |
 | getWards() | Lấy danh sách các xã/phường |
+| getAreasWithDetail() | Lấy danh sách vùng miền (chi tiết) |
 | getProvincesWithDetail() | Lấy toàn bộ dữ liệu |
+| getProvindByAreaCode() | Lấy danh sách tỉnh/tp theo mã vùng miền |
 | getDistrictsByProvinceCode(provinceCode) | Lấy danh sách huyện/ quận theo mã tỉnh |
 | getWardsByDistrictCode(districtCode) | Lấy danh sách phường/ xã theo mã huyện |
 | getWardsByProvinceCode(provinceCode) | Lấy danh sách phường/ xã theo tỉnh |
-
+| getProvinceByProvinceCode() | Lấy thông tin tỉnh/tp theo mã tỉnh |
+| getWardByWardCode() | Lấy thông tin phường / xã theo mã phường/ xã |
+| getDistrictByDistrictCode() | Lấy thông tin quận/ huyện theo mã quận/ huyện |
 
 ### The MIT License (MIT)
 

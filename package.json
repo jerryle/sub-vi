@@ -1,13 +1,13 @@
 {
-  "name": "sub-vn",
-  "version": "0.0.2",
-  "description": "Vietnam Provinces, Cities, Districts, Wards",
+  "name": "sub-vi",
+  "version": "0.0.3",
+  "description": "Vietnam Provinces, Cities, Districts, Wards - sub-vn alternative",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate": "node ./generate"
   },
-  "author": "Tran Quoc Cuong <trquoccuong@gmail.com>",
+  "author": "Tran Quoc Cuong",
   "license": "MIT",
   "dependencies": {
     "xlsx": "^0.15.1"
@@ -25,7 +25,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trquoccuong/sub-vn.git"
+    "url": "git+https://github.com/jerryle/sub-vi.git"
   },
   "devDependencies": {
     "eslint": "^6.5.1",
